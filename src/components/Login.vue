@@ -3,7 +3,7 @@
     <div class="login-container">
       <div>
         <div>
-          <button class="loginBtn loginBtn--facebook">
+          <button class="loginBtn loginBtn--facebook" @click="facebookLogin">
             Login with Facebook
           </button>
         </div>
